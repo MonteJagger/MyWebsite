@@ -1,0 +1,71 @@
+body{
+    max-width: 60em;
+    margin:0 auto;
+}
+#cover {
+    display: block;
+    width: 60em;
+}
+
+.border_menu {
+    height: 2em;
+    width: 60em;
+    background-color: #6d0029;
+}
+.border_menu p {
+    margin: auto;
+    font-family: Futura;
+    color: white;
+    font-size: 20px;
+    padding-top: 3px;
+    padding-left: 1em;
+}
+
+#background {
+    display: block;
+    width: 60em;
+    opacity: .5;
+    position: initial;
+}
+
+#outer{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#buttons {
+    position: absolute;
+    display: block;
+    top: 6em;
+    left: 4em;
+}
+
+#buttons div {
+    position: relative;
+    width: 9em;
+    height: 9em;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px #888888;
+    margin: 0em 4em 0em 4em;
+    border-radius: 11px;
+    display: inline-block;
+
+}
+#buttons a img{
+    display:block;
+    margin:auto;
+    width: 7em;
+    height: 7em;
+    padding-top: 17px;
+}
+p {
+    display: block;
+
+    text-align: center;
+    position: absolute;
+    font-family: Futura;
+    color: black;
+    font-size: 20px;
+
+}
