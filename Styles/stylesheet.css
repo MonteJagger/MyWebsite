@@ -1,71 +1,51 @@
-body{
-    max-width: 60em;
-    margin:0 auto;
-}
-#cover {
-    display: block;
+html, body {
+    margin: auto;
+    padding: 0;
     width: 60em;
 }
 
 .border_menu {
-    height: 2em;
-    width: 60em;
     background-color: #6d0029;
+    height: 2.4em;
+    padding-left: 20px;
 }
+
 .border_menu p {
-    margin: auto;
-    font-family: Futura;
     color: white;
-    font-size: 20px;
-    padding-top: 3px;
-    padding-left: 1em;
+    font-family: Futura, "Gill Sans";
+    font-size: 1.5em;
+    margin: auto;
+    padding: 2px;
+    letter-spacing: 1px;
 }
 
-#background {
-    display: block;
-    width: 60em;
-    opacity: .5;
-    position: initial;
+#cover_photo { /* my cover photo of me */
+    background: url(../Images/HLcover.jpg) no-repeat center;
+    background-size: cover;
+    height: 20em;
+    margin-top: 0;
 }
 
-#outer{
-    position: relative;
-    top: 0px;
-    left: 0px;
+#background { /* white background picture*/
+    background: url(../Images/white_pattern.jpg) no-repeat center;
+    background-size: 100%;
+    height: 54em;
+
 }
 
-#buttons {
-    position: absolute;
-    display: block;
-    top: 6em;
-    left: 4em;
-}
-
-#buttons div {
-    position: relative;
-    width: 9em;
-    height: 9em;
+.buttons {
+    width: 8em;
+    height: 8em;
     background-color: white;
-    box-shadow: 5px 5px 5px 5px #888888;
-    margin: 0em 4em 0em 4em;
-    border-radius: 11px;
-    display: inline-block;
-
+    box-shadow: 2px 3px 7px 2px #888888;
+    float: left;
+    border-radius: 8px;
+    margin: 5em 5.9em 0em 5.9em;
 }
-#buttons a img{
-    display:block;
-    margin:auto;
+
+.buttons img {
     width: 7em;
     height: 7em;
-    padding-top: 17px;
-}
-p {
-    display: block;
-
-    text-align: center;
-    position: absolute;
-    font-family: Futura;
-    color: black;
-    font-size: 20px;
-
+    margin: auto;
+    padding: 8px;
 }
